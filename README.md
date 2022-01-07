@@ -1,2 +1,1 @@
-# Interval Discrimination
-Code for Interval Discimination task trained on BioRNN
+Code for 2-Interval Forced Choice task trained on an RNN with biologically feasible parameters
