@@ -8,28 +8,27 @@ Interval discrimination is of fundamental importance to many forms of sensory pr
 
 ## Selected figures
 <p align="center">
-  <img src="images/network.png" alt="Network" width="200"/>
+  <img src="images/network.png" alt="Network"/>
   <br>
   <em style="font-size: 10;">Schematic of RNN model. The input unit projects to the RNN composed of 256 units (204 excitatory, 52 inhibitory). The recurrent units project to the output unit. The network is trained to produce a motor response for trials in which the first interval is longer than the second interval following the offset of the second interval.</em>
 </p>
 
 <p align="center">
-  <img src="images/memory_trace.png" alt="Network activity" width="300"/>
+  <img src="images/memory_trace.png" alt="Network activity"/>
   <br>
   <em style="font-size: 10;">Sample population activity of a trained RNN tested on two different trial conditions. Red bars indicate input pulses. Left panel shows network activity for the short interval (120 ms) followed by the standard interval (200 ms) case, and right panel shows network activity for long-standard case. Cyan plots represent activity of the output unit.
 </em>
 </p>
 
 <p align="center">
-  <img src="images/tuning.png" alt="Network tuning" width="300"/>
+  <img src="images/tuning.png" alt="Network tuning"/>
   <br>
   <em style="font-size: 10;">(A) Tuning to first interval. Each row represents a single unit’s tuning function across all 9 possible first interval conditions during the sensory epoch. The units are sorted in order of interval tuning, with the units tuned to the shorter intervals shown first. Only the top quartile  of active units are shown. (B) Tuning to working memory of first interval. Each row represents a unit’s tuning function across all 9 possible first interval conditions during the WM epoch. The units are sorted in order of interval tuning, with the units tuned to the shorter intervals shown first. Only the top quartile of active units are shown. 
 </em>
 </p>
 
-
 <p align="center">
-  <img src="images/mi.png" alt="Network mutual information" width="200"/>
+  <img src="images/mi.png" alt="Network mutual information"/>
   <br>
   <em style="font-size: 10;">Scatter plot of the mutual information of each active unit to the working memory of the interval compared to the timing of the first interval. 
 </em>
